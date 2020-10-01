@@ -27,8 +27,7 @@
 		11. Max Combo
 		12. Perfect					//Boolean, can be True or False
 		13. Grade					//F, S, A, B, C , D  (F is Failed)
-		14. Mods					//The osu!2007 Client cannot tell EZ and NF apart when playing them Seperatly,
-									//NF returns 1, EZ returns 1 and EZNF returns 2
+		14. Mods					NF returns 1, EZ returns 2 and EZNF returns 3
 		15. Pass					//Did the user pass or fail, (Is a Boolean aswell, can be true of false)
 		
 	*/
