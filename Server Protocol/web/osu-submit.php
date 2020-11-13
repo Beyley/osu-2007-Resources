@@ -4,13 +4,13 @@
 	/*
 		The osu! 2007 Client Sends Normal GET Requests to osu.ppy.sh/web
 		To Submit Scores it submits a GET Request to osu.ppy.sh/web/osu-submit.php
-		It Also sends a Binary Replay through a POST Request
+		It Also sends a Binary Replay file through a POST Request
 		The Parameters sent are listed Here:
 		
 		$_GET["score"] //Look Definition Below
 		$_GET["pass"] //Users Password
 		
-		$_POST["score"] //Replay
+		$_FILES["score"] //Replay file that can later be copied to a permanent file using move_uploaded_file($_FILES['score']['tmp_name'], "replaypath/replayname.osr");
 		
 		score definition (Seperated by ':'):
 		
