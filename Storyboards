@@ -14,7 +14,9 @@ TYPE 0: Basic image, displays an image
 TYPE 1: Play a video, plays a video in the background
 1,0,"clannad_ed_01.avi"
 
-TYPE 2: ?????
+TYPE 2: Break
+  start   end
+2,113499,156200
 
 TYPE 3: Background color, the color to tint the background to, in RGB format
      R   G   B
